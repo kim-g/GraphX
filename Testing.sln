@@ -5,9 +5,27 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Testing", "Testing\Testing.shproj", "{CC4328EF-A643-4181-861F-3F1B781F3154}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphiX", "GraphiX\GraphiX.csproj", "{4AFC2E11-D7F2-4B91-BB8E-D94A7C9D3EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphX", "GraphX\GraphX.csproj", "{E6304C41-CAB2-43B0-A635-E316521D9CE0}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Testing\Testing.projitems*{cc4328ef-a643-4181-861f-3f1b781f3154}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AFC2E11-D7F2-4B91-BB8E-D94A7C9D3EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AFC2E11-D7F2-4B91-BB8E-D94A7C9D3EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AFC2E11-D7F2-4B91-BB8E-D94A7C9D3EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AFC2E11-D7F2-4B91-BB8E-D94A7C9D3EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6304C41-CAB2-43B0-A635-E316521D9CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6304C41-CAB2-43B0-A635-E316521D9CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6304C41-CAB2-43B0-A635-E316521D9CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6304C41-CAB2-43B0-A635-E316521D9CE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
