@@ -47,6 +47,7 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animator.cs" />
     <Compile Include="EventList.cs" />
     <Compile Include="Texts.cs" />
     <Compile Include="WPF_Element.cs" />

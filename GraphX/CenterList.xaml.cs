@@ -31,11 +31,11 @@ namespace GraphX
         private Label PressedLabel;
 
         // Чётные элементы
-        private Brush _EvenItemBackground = new SolidColorBrush(Colors.Transparent);
+        private Brush _EvenItemBackground = new SolidColorBrush(Colors.White);
         private Brush _EvenItemForeground = new SolidColorBrush(Colors.Black);
 
         // Нечётные элементы
-        private Brush _OddItemBackground = new SolidColorBrush(Colors.Transparent);
+        private Brush _OddItemBackground = new SolidColorBrush(Colors.White);
         private Brush _OddItemForeground = new SolidColorBrush(Colors.Black);
 
         // Центральный элемент
@@ -47,8 +47,8 @@ namespace GraphX
         private Brush _SelectedItemForeground = new SolidColorBrush(Colors.Black);
 
         // Выделенный элемент
-        private Brush _PressedItemBackground;
-        private Brush _PressedItemForeground;
+        private Brush _PressedItemBackground = new SolidColorBrush(Colors.Black);
+        private Brush _PressedItemForeground = new SolidColorBrush(Colors.White);
 
         // Список элементов
         private EventList<string> _items = new EventList<string>();
@@ -256,6 +256,7 @@ namespace GraphX
 
         public CenterList()
         {
+            //DefaultStyleKeyProperty.OverrideMetadata(typeof(CenterList), new FrameworkPropertyMetadata(typeof(CenterList)));
             InitializeComponent();
             SizeChanged += OnResize;
             _items.ListChanged += ListChanged;

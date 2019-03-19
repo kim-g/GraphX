@@ -14,7 +14,7 @@
         </Grid.RowDefinitions>
         <local:DrawCanvas x:Name="Core" SizeChanged="Core_SizeChanged"/>
 
-        <GraphX:CenterList x:Name="MyList" FontFamily="Courier New" FontSize="14" EvenItemBackground="#FFF3F3F3" OddItemBackground="White" CentralItemBackground="Blue" CentralItemForeground="White">
+        <GraphX:CenterList x:Name="MyList" FontFamily="Courier New" FontSize="20" EvenItemBackground="#FFF3F3F3" OddItemBackground="White" CentralItemBackground="Blue" CentralItemForeground="White">
             <GraphX:CenterList.Items>
                 <System:String>123</System:String>
                 <System:String>234</System:String>
